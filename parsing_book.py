@@ -24,5 +24,5 @@ for i, email in enumerate(emails, start=2):
     ws[f'B{i}'] = email
 
 # Збережіть Excel-файл
-wb.save('результат.xlsx')
+wb.save('result.xlsx')
 
